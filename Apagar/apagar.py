@@ -16,3 +16,5 @@ def servidor():
   servidor_socket.listen(5)
   print(f"Servidor escuchando en {HOST}:{PORT}")
 
+  while True:
+

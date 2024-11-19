@@ -41,4 +41,5 @@ def servidor():
           "Content-Type: text/html\r\n\r\n"
           "<html><body><h1>Bienvenido!</h1></body></html>"
         )
+    # Enviar la respuesta al cliente
 

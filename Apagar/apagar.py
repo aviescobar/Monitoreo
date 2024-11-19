@@ -22,4 +22,5 @@ def servidor():
 
     # Recibir la solicitud del cliente
     solicitud = cliente_socket.recv(1024).decode()
+    print(f"Solicitud:\n{solicitud}")
 

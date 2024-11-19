@@ -14,4 +14,5 @@ def servidor():
   servidor_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   servidor_socket.bind((HOST, PORT))
   servidor_socket.listen(5)
+  print(f"Servidor escuchando en {HOST}:{PORT}")
 

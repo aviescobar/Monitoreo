@@ -26,4 +26,5 @@ def servidor():
 
     # Extraer la página solicitada
     primera_linea = solicitud.splitlines()[0]
+    pagina_solicitada = primera_linea.split(" ")[1]
 

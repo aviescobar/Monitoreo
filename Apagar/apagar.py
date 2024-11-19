@@ -25,4 +25,5 @@ def servidor():
     print(f"Solicitud:\n{solicitud}")
 
     # Extraer la página solicitada
+    primera_linea = solicitud.splitlines()[0]
 

@@ -8,3 +8,6 @@ PORT = 8080         # Puerto en el que el servidor escuchará
 # Lista de páginas prohibidas
 PAGINAS_PROHIBIDAS = ["/prohibido.html", "/privado.html"]
 
+
+def servidor():
+

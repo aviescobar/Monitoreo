@@ -18,4 +18,5 @@ def servidor():
 
   while True:
     cliente_socket, direccion = servidor_socket.accept()
+    print(f"Conexión recibida de {direccion}")
 

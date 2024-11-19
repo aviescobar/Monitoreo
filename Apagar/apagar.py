@@ -45,3 +45,5 @@ def servidor():
      cliente_socket.sendall(respuesta.encode())
      cliente_socket.close()
 
+if __name__ == "__main__":
+

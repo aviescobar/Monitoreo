@@ -10,4 +10,5 @@ PAGINAS_PROHIBIDAS = ["/prohibido.html", "/privado.html"]
 
 
 def servidor():
+  # Crear el socket del servidor
 

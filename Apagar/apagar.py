@@ -29,4 +29,5 @@ def servidor():
     pagina_solicitada = primera_linea.split(" ")[1]
 
     # Comprobar si la página está prohibida
+    if pagina_solicitada in PAGINAS_PROHIBIDAS:
 

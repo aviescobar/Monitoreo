@@ -17,4 +17,5 @@ def servidor():
   print(f"Servidor escuchando en {HOST}:{PORT}")
 
   while True:
+    cliente_socket, direccion = servidor_socket.accept()
 

@@ -42,4 +42,5 @@ def servidor():
           "<html><body><h1>Bienvenido!</h1></body></html>"
         )
     # Enviar la respuesta al cliente
+     cliente_socket.sendall(respuesta.encode())
 

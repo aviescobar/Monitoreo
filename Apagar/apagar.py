@@ -43,4 +43,5 @@ def servidor():
         )
     # Enviar la respuesta al cliente
      cliente_socket.sendall(respuesta.encode())
+     cliente_socket.close()
 

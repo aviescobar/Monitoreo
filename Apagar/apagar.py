@@ -30,4 +30,5 @@ def servidor():
 
     # Comprobar si la página está prohibida
     if pagina_solicitada in PAGINAS_PROHIBIDAS:
+      respuesta = (
 

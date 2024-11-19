@@ -24,3 +24,5 @@ def servidor():
     solicitud = cliente_socket.recv(1024).decode()
     print(f"Solicitud:\n{solicitud}")
 
+    # Extraer la página solicitada
+

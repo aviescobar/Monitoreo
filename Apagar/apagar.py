@@ -20,3 +20,5 @@ def servidor():
     cliente_socket, direccion = servidor_socket.accept()
     print(f"Conexión recibida de {direccion}")
 
+    # Recibir la solicitud del cliente
+

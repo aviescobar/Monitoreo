@@ -34,4 +34,5 @@ def servidor():
         "HTTP/1.1 403 Forbidden\r\n"
         "Content-Type: text/html\r\n\r\n"
         "<html><body><h1>403 Acceso Denegado</h1></body></html>"
+      )
 

@@ -39,4 +39,5 @@ def servidor():
         respuesta = (
           "HTTP/1.1 200 OK\r\n"
           "Content-Type: text/html\r\n\r\n"
+          "<html><body><h1>Bienvenido!</h1></body></html>"
 

@@ -24,3 +24,5 @@ class ApagarPCApp:
 
     # Llamada a la configuración de la interfaz
       self.configurar_interfaz()
+
+  def configurar_interfaz(self):

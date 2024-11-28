@@ -4,3 +4,5 @@ import subprocess
 import os
 import paramiko
 import re  # Para validar la IP
+
+class ApagarPCApp:

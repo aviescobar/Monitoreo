@@ -8,3 +8,4 @@ import re  # Para validar la IP
 class ApagarPCApp:
   def __init__(self, root):
       self.root = root
+      self.root.title("Ciberseguridad")

@@ -39,6 +39,8 @@ class ApagarPCApp:
     self.crear_entrada("Usuario:", 3, "usuario")
     self.crear_entrada("Contraseña :", 4, "contraseña", True)
 
+    # Botones
+
 
 
 

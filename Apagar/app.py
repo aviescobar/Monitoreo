@@ -11,3 +11,4 @@ class ApagarPCApp:
       self.root.title("Ciberseguridad")
 
       # Obtener la resolución de la pantalla
+      ancho_pantalla = root.winfo_screenwidth()

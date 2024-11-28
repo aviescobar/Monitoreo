@@ -21,3 +21,5 @@ class ApagarPCApp:
         root.grid_columnconfigure(i, weight=1)
       for i in range(9):
         root.grid_rowconfigure(i, weight=1)
+
+    # Llamada a la configuración de la interfaz

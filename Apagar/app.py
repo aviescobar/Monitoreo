@@ -18,3 +18,4 @@ class ApagarPCApp:
 
        # Configuración de las columnas y filas
       for i in range(6):
+        root.grid_columnconfigure(i, weight=1)

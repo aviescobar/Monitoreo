@@ -13,3 +13,4 @@ class ApagarPCApp:
       # Obtener la resolución de la pantalla
       ancho_pantalla = root.winfo_screenwidth()
       alto_pantalla = root.winfo_screenheight()
+      self.root.geometry(f"{ancho_pantalla}x{alto_pantalla}")

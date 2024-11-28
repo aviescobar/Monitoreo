@@ -37,6 +37,7 @@ class ApagarPCApp:
     # Etiquetas y entradas de texto
     self.crear_entrada("Ingresa una IP:", 2, "ip")
     self.crear_entrada("Usuario:", 3, "usuario")
+    self.crear_entrada("Contraseña :", 4, "contraseña", True)
 
 
 

@@ -32,3 +32,6 @@ class ApagarPCApp:
 
     subtitulo = tk.Label(self.root, text="Servidor", font=("Arial", 24), bg='#2c3e50', fg='#ecf0f1')
     subtitulo.grid(row=1, column=0, columnspan=6, pady=10)
+
+
+    # Etiquetas y entradas de texto

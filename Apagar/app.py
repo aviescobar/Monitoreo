@@ -29,3 +29,5 @@ class ApagarPCApp:
      # Título y subtítulo
     titulo = tk.Label(self.root, text="Apagar PC", font=("Arial", 40, "bold"), bg='#2c3e50', fg='#ecf0f1')
     titulo.grid(row=0, column=0, columnspan=6, pady=10)
+
+    subtitulo = tk.Label(self.root, text="Servidor", font=("Arial", 24), bg='#2c3e50', fg='#ecf0f1')

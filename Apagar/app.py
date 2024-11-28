@@ -35,3 +35,4 @@ class ApagarPCApp:
 
 
     # Etiquetas y entradas de texto
+    self.crear_entrada("Ingresa una IP:", 2, "ip")

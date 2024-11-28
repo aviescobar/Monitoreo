@@ -14,3 +14,4 @@ class ApagarPCApp:
       ancho_pantalla = root.winfo_screenwidth()
       alto_pantalla = root.winfo_screenheight()
       self.root.geometry(f"{ancho_pantalla}x{alto_pantalla}")
+      self.root.configure(bg='#2c3e50')

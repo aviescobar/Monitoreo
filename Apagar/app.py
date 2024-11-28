@@ -26,3 +26,4 @@ class ApagarPCApp:
       self.configurar_interfaz()
 
   def configurar_interfaz(self):
+     # Título y subtítulo

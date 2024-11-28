@@ -27,3 +27,4 @@ class ApagarPCApp:
 
   def configurar_interfaz(self):
      # Título y subtítulo
+    titulo = tk.Label(self.root, text="Apagar PC", font=("Arial", 40, "bold"), bg='#2c3e50', fg='#ecf0f1')

@@ -17,3 +17,4 @@ class ApagarPCApp:
       self.root.configure(bg='#2c3e50')
 
        # Configuración de las columnas y filas
+      for i in range(6):

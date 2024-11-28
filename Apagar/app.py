@@ -23,3 +23,4 @@ class ApagarPCApp:
         root.grid_rowconfigure(i, weight=1)
 
     # Llamada a la configuración de la interfaz
+      self.configurar_interfaz()
